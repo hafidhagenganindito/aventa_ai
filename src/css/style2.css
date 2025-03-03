@@ -1,0 +1,597 @@
+/* Dan kamu tidak perlu repot dan pusing untuk setting kecerdasan Artificial Intelligence (AI), karena semua sudah siap tinggal pakai. */
+.div-10 {
+  padding: 20px;
+  width: 80%; /* Lebar responsif */
+  max-width: 500px; /* Lebar maksimum */
+  margin: 20px auto; /* Membuat elemen berada di tengah */
+  text-align: center;
+}
+
+.text-8 {
+  font-size: 32px; /* 2em → 32px */
+
+  color: black;
+  margin-bottom: 15px;
+  font-size: 20px; /* 1.2em → 19.2px */
+  /* line-height: 1.6; */
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .text-8 {
+    font-size: 15px; /* 1em → 16px */
+  }
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+/* ayo segera Miliki Aventa, Jagonya jualan! */
+.div-11 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  text-align: center;
+  margin-top: -16px;
+  width: 100%; /* Pastikan lebar penuh sesuai viewport */
+}
+
+.div-11 h1 {
+  font-family: "Inter", serif;
+  color: black;
+  margin-top: 20px;
+  max-width: 100%;
+  font-size: 30px;
+}
+
+.text-9 {
+  font-weight: bold;
+  display: block;
+
+  background: black;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-9-1 {
+  font-weight: bold;
+  display: block;
+
+  background: linear-gradient(122.48deg, #1662ad 7.09%, #43bf2a 93.79%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 480px) {
+  .div-11 h1 {
+    font-size: 20px;
+  }
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* AI image */
+.image1 {
+  display: flex;
+  justify-content: center; /* Pusatkan gambar */
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.image-item1 {
+  width: 45%; /* Gunakan persentase agar tetap fleksibel */
+
+  height: 500px;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Responsif untuk Mobile */
+@media screen and (max-width: 768px) {
+  .image-item1 {
+    width: 100%; /* Pastikan tetap besar di layar kecil */
+    height: auto;
+  }
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+/* Sayangnya, Aventa yang jago jualan ini tidak gratisan. Untuk memiliki Aventa, harus dimaharin Rp. 500,000 */
+.div-12 {
+  font-family: "Inter", serif;
+  background: rgba(185, 0, 0, 1);
+
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 80%; /* Lebar responsif */
+
+  margin: 20px auto; /* Membuat elemen berada di tengah */
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.div-12 span {
+  margin: 5px;
+}
+
+.text-10 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.text-10-1 {
+  font-size: 17px;
+}
+.text-10-2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .div-12 {
+    width: 90%;
+  }
+  .text-10 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .text-10-1 {
+    font-size: 12px;
+  }
+
+  .text-10-2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+/* ------------------------------------------------------------------------------------------------- */
+/* Hari ini saja! - Jangan lewatkan kesempatan untuk mendapatkan penawaran yang luar biasa ini! Dapatkan sekarang juga dan nikmati manfaatnya! */
+.discount-container {
+  color: black;
+  text-align: center;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.discount-container .title {
+  font-size: 32px; /* 2em → 32px */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.discount-container .discount {
+  font-size: 19.2px; /* 1.2em → 19.2px */
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.discount-container .discount-percentage {
+  font-size: 48px; /* 3em → 48px */
+  font-weight: bold;
+  color: rgba(185, 0, 0, 1);
+  margin-bottom: 10px;
+}
+
+.discount-container .pay-only {
+  font-size: 19.2px; /* 1.2em → 19.2px */
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.discount-container .price-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.discount-container .new-price {
+  font-size: 40px; /* 2.5em → 40px */
+  font-weight: bold;
+  background: linear-gradient(76.59deg, #1662ad 19.37%, #43bf2a 78.79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 5px;
+}
+
+.discount-container .only {
+  font-size: 19.2px; /* 1.2em → 19.2px */
+}
+
+.discount-container .old-price {
+  font-size: 19.2px; /* 1.2em → 19.2px */
+  text-decoration: line-through;
+  margin-bottom: 20px;
+  color: rgba(185, 0, 0, 1);
+}
+
+.discount-container .buy-button {
+  background: linear-gradient(178.71deg, #43bf2a 1.1%, #176208 98.9%);
+
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px; /* 1.5em → 24px */
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.discount-container .bottom-text {
+  font-size: 16px; /* 1em → 16px */
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+/* Media Queries */
+@media (max-width: 480px) {
+  .discount-container .title {
+    font-size: 28.8px; /* 1.8em → 28.8px */
+  }
+
+  .discount-container .discount-percentage {
+    font-size: 40px; /* 2.5em → 40px */
+    color: rgba(185, 0, 0, 1);
+  }
+
+  .discount-container .new-price {
+    font-size: 32px; /* 2em → 32px */
+  }
+
+  .discount-container .buy-button {
+    font-size: 19.2px; /* 1.2em → 19.2px */
+  }
+}
+
+/* ----------------------------------------------------------------------------------- */
+.aventa-card {
+  margin-left: 610px;
+
+  width: 200px; /* 31.25rem */
+  padding: 50px;
+}
+
+.aventa-image {
+  width: 150px;
+  height: auto;
+  display: block;
+}
+
+.aventa-image-1 {
+  height: 600px; // besarkan
+}
+
+.aventa-logo {
+  margin-left: 380px;
+  margin-top: -250px;
+
+  height: 200px;
+}
+
+.aventa-p {
+  background: linear-gradient(267.75deg, #67a70e -7.57%, #1662ad 98.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block; /* Agar gradient bekerja dengan baik pada teks */
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.aventa-p-1 {
+  font-size: 10px;
+  padding-left: 300px;
+}
+
+.aventa-text {
+  margin-left: 500px;
+  font-size: 30px;
+  margin-top: -300px;
+}
+.aventa-text-1 {
+  background: linear-gradient(267.75deg, #67a70e -7.57%, #1662ad 98.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-voucher {
+  font-family: "Inter", serif;
+  background-color: rgba(67, 191, 42, 1);
+  color: white;
+  padding: 15px 100px;
+  text-align: left; /* Mengatur teks rata kiri */
+  border-radius: 0 50px 50px 0; /* Rounded ke kanan */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px auto 20px 0; /* Margin kiri otomatis untuk rata kiri */
+  width: fit-content; /* Agar lebar menyesuaikan konten */
+  margin-top: -50px;
+  font-size: 25px;
+  font-weight: bold;
+}
+/* ====================================== */
+@media (max-width: 768px) {
+  .aventa-card {
+    margin-left: 150px;
+
+    width: 200px; /* 31.25rem */
+    padding: 50px;
+  }
+
+  .aventa-image {
+    width: 150px;
+    height: auto;
+    display: block;
+  }
+
+  .aventa-image-1 {
+    height: 600px; // besarkan
+  }
+
+  .aventa-logo {
+    margin-right: 380px;
+    margin-top: -250px;
+
+    height: 200px;
+  }
+
+  .aventa-p {
+    background: linear-gradient(267.75deg, #67a70e -7.57%, #1662ad 98.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block; /* Agar gradient bekerja dengan baik pada teks */
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .aventa-p-1 {
+    font-size: 10px;
+    padding-left: 300px;
+  }
+
+  .aventa-text {
+    margin-left: 100px;
+    font-size: 30px;
+    margin-top: -250px;
+    margin-bottom: 90px;
+  }
+  .aventa-text-1 {
+    background: linear-gradient(267.75deg, #67a70e -7.57%, #1662ad 98.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .btn-voucher {
+    font-family: "Inter", serif;
+    background-color: rgba(67, 191, 42, 1);
+    color: white;
+    padding: 15px 100px;
+    text-align: left; /* Mengatur teks rata kiri */
+    border-radius: 0 50px 50px 0; /* Rounded ke kanan */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px auto 20px 0; /* Margin kiri otomatis untuk rata kiri */
+    width: fit-content; /* Agar lebar menyesuaikan konten */
+    margin-top: -50px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 480px) {
+  .aventa-card {
+    margin-left: -50px;
+
+    width: 200px; /* 31.25rem */
+    padding: 50px;
+  }
+
+  .aventa-image {
+    width: 150px;
+    height: auto;
+    display: block;
+  }
+  .aventa-image-1 {
+    height: 400px; // besarkan
+  }
+
+  .aventa-logo {
+    margin-left: 230px;
+    margin-top: -180px;
+
+    height: 200px;
+  }
+
+  .aventa-p {
+    background: linear-gradient(267.75deg, #67a70e -7.57%, #1662ad 98.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block; /* Agar gradient bekerja dengan baik pada teks */
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .aventa-p-1 {
+    font-size: 10px;
+    padding-left: 300px;
+  }
+
+  .aventa-text {
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: -250px;
+    margin-bottom: 90px;
+  }
+  .aventa-text-1 {
+    background: linear-gradient(267.75deg, #67a70e -7.57%, #1662ad 98.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .btn-voucher {
+    font-family: "Inter", serif;
+    background-color: rgba(67, 191, 42, 1);
+    color: white;
+    padding: 5px 20px;
+    text-align: left; /* Mengatur teks rata kiri */
+    border-radius: 0 50px 50px 0; /* Rounded ke kanan */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px auto 20px 0; /* Margin kiri otomatis untuk rata kiri */
+    width: fit-content; /* Agar lebar menyesuaikan konten */
+    margin-top: -50px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+/* ------------------------------------------------------------------------------ */
+/* Yuk... Maharin sekarang! Mumpung promonya masih berlaku sampai 1 jam kedepan.  */
+.promo-text {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.promo-text p {
+  font-size: 30px; /* 2em → 32px */
+  margin: 5px 0;
+}
+
+.title {
+  color: rgba(22, 98, 173, 1);
+  font-weight: bold;
+}
+
+.promo-text-1 {
+  color: black;
+}
+
+.highlight {
+  color: rgba(185, 0, 0, 1);
+}
+
+@media (max-width: 480px) {
+  .promo-text p {
+    font-size: 25px; /* 2em → 32px */
+    margin: 5px 0;
+  }
+}
+
+/* -------------------------------------------------------------------- */
+/* Harga Spesial Diskon Ini Akan Berakhir Pada :  */
+.discount-timer {
+  text-align: center;
+
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.discount-timer p {
+  font-size: 15px; /* Ukuran font */
+
+  color: black; /* Warna teks putih */
+  margin: 0;
+}
+@media (max-width: 480px) {
+  .discount-timer p {
+    font-size: 10px; /* Ukuran font */
+  }
+}
+
+/* ------------------------------------------------------------------------------ */
+/* Button Saya Mau */
+.buy-button-1 {
+  background: linear-gradient(178.71deg, #43bf2a 1.1%, #176208 98.9%);
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px; /* 1.5em → 24px */
+  font-weight: bold;
+  cursor: pointer;
+  margin: 20px auto; /* Memposisikan tombol ke tengah */
+  display: block; /* Agar margin auto berfungsi */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* Salam hangat dari sahabatmu, Destya Ayu Sinta Putri 💖 */
+.greeting {
+  text-align: center;
+
+  padding: 20px;
+}
+
+.greeting span {
+  font-size: 15px; /* Ukuran font (2em = 32px) */
+  margin: 0px;
+  color: black; /* Warna teks hitam */
+}
+
+.heart {
+  font-size: 24px; /* Ukuran emoji hati (1.5em = 24px) */
+}
+
+/* ------------------------------------------------------------------------------------ */
+/* ✨ AVENTA, JAGONYA JUALAN! ✨ */
+
+.aventa-title {
+  text-align: center;
+
+  padding: 20px;
+  position: relative;
+  overflow: hidden; /* Menyembunyikan elemen yang keluar dari wadah */
+}
+
+.aventa-title h1 {
+  font-size: 25px; /* Ukuran font */
+  font-weight: bold;
+  background: linear-gradient(171.93deg, #43bf2a -30.65%, #053361 93.8%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block; /* Agar gradient bekerja dengan baik pada teks */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
+  position: relative;
+  z-index: 1; /* Membuat teks berada di atas elemen latar belakang */
+}
+
+/* Efek cahaya di samping */
+.aventa-title::before,
+.aventa-title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 100px;
+}
+
+.aventa-title::before {
+  left: 10px;
+}
+
+.aventa-title::after {
+  right: 10px;
+}
+
+/* Efek bayangan di bawah */
+.aventa-title::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 20px;
+
+  bottom: 0;
+  z-index: 0; /* Membuat efek bayangan berada di belakang teks */
+}
+
+@media (max-width: 480px) {
+  .aventa-title h1 {
+    font-size: 18px;
+  }
+}

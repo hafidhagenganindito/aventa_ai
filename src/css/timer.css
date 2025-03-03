@@ -1,0 +1,93 @@
+body {
+  overflow-x: hidden; /* Mencegah geser ke samping */
+  position: relative;
+}
+
+.timer-container {
+  display: flex;
+  justify-content: center; /* Pusatkan timer */
+  gap: 20px;
+  text-align: center;
+
+  padding: 10px;
+
+  width: fit-content;
+  margin: 50px auto; /* Beri jarak dan buat di tengah */
+}
+
+.spinner {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.circle-svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.background-circle {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 8;
+}
+
+.progress-circle {
+  fill: none;
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-dasharray: 251; /* Keliling lingkaran (2 * π * 40) */
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 1s linear;
+}
+
+#hourCircle {
+  stroke: #eca72c;
+}
+#minuteCircle {
+  stroke: #1a558e;
+}
+#secondCircle {
+  stroke: red;
+}
+
+.timer-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* 🔹 Responsive: Timer mengecil saat layar lebih kecil */
+@media (max-width: 768px) {
+  .spinner {
+    width: 100px; /* Mengecil di tablet */
+    height: 100px;
+  }
+  .timer-text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .spinner {
+    width: 80px; /* Lebih kecil di HP */
+    height: 80px;
+  }
+  .timer-text {
+    font-size: 16px;
+  }
+  .label {
+    font-size: 12px;
+  }
+}

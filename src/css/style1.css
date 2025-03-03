@@ -1,0 +1,228 @@
+/* Dengan Aventa, Anda dapat meningkatkan kepuasan pelanggan secara signifikan! */
+.div-5 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  text-align: center;
+  margin-top: 15px;
+  width: 100%; /* Pastikan lebar penuh sesuai viewport */
+}
+
+.div-5 p {
+  font-family: "Inter", serif;
+  color: black;
+  margin-top: 20px;
+  max-width: 100%;
+  font-size: 20px;
+}
+
+.text-5 {
+  display: block;
+  color: black;
+}
+
+@media (max-width: 480px) {
+  .div-5 p {
+    font-size: 15px;
+  }
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* Pemula diseluruh dunia sedang menghasilkan uang jutaan rupiah dari rumah dengan teknologi Artificial Intelligence */
+.div-6 {
+  font-family: "Inter", serif;
+  background: linear-gradient(79.2deg, #1662ad -78.03%, #43bf2a 94.95%);
+
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 80%; /* Lebar responsif */
+
+  margin: 20px auto; /* Membuat elemen berada di tengah */
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.div-6 span {
+  margin: 5px;
+}
+
+.text-6 {
+  font-size: 20px;
+}
+
+.text-6-1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .div-6 {
+    width: 90%;
+  }
+  .div-6 span {
+    margin: 2px;
+    font-size: 15px;
+  }
+}
+
+/* --------------------------------------------------------------------------------------------- */
+.image {
+  display: flex;
+  justify-content: center; /* Pusatkan gambar */
+  align-items: center;
+  width: 100%;
+  margin-top: -70px;
+}
+
+.image-item {
+  width: 90%; /* Gunakan persentase agar tetap fleksibel */
+  max-width: 300px; /* Batasi ukuran maksimum di desktop */
+  min-width: 200px; /* Pastikan gambar tidak terlalu kecil di mobile */
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Responsif untuk Mobile */
+@media screen and (max-width: 768px) {
+  .image-item {
+    width: 80%; /* Pastikan tetap besar di layar kecil */
+    min-width: 280px; /* Jaga agar tetap proporsional */
+    max-width: 400px; /* Batasi ukuran maksimum di mobile */
+  }
+}
+
+/* ------------------------------------------------------------------------------ */
+/* Saya juga mau menghasilkan uang dari rumah, tapi..  */
+.div-7 {
+  background: rgba(185, 0, 0, 1);
+
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%; /* Lebar penuh */
+  box-sizing: border-box; /* Memastikan padding tidak mempengaruhi lebar */
+  font-family: sans-serif;
+  margin-top: -20px;
+}
+
+.div-7 span {
+  font-size: 30px; /* Ukuran font responsif */
+
+  margin: 5px 0;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .div-7 span {
+    font-size: 20px; /* Ukuran font lebih kecil pada layar kecil */
+  }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+/* Lists */
+.images {
+  padding: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.image-item-1 {
+  /* 1.5em ≈ 24px */
+
+  color: black; /* Warna teks putih */
+  margin: 10px 0;
+}
+
+.image-list-1-1 {
+  width: 20px;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .images {
+    font-size: 18px; /* 1.2em ≈ 19px */
+  }
+
+  .image-list-1-1 {
+    width: 15px;
+  }
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* dan saya tidak tahu bagaimana cara memulainya */
+.div-8 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  text-align: center;
+  margin-top: -16px;
+  width: 100%; /* Pastikan lebar penuh sesuai viewport */
+}
+
+.div-8 p {
+  font-family: "Inter", serif;
+
+  margin-top: 20px;
+  max-width: 100%;
+  font-size: 25px;
+}
+
+.text-3 {
+  font-weight: bold;
+  display: block;
+  color: rgba(185, 0, 0, 1);
+  text-transform: capitalize;
+}
+
+@media (max-width: 480px) {
+  .div-8 p {
+    font-size: 20px;
+  }
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* TENANG!! Kamu hanya perlu duduk diam dan tiba-tiba dapat duit, karena bisnis online kamu 100% dikerjakan oleh Aventa. */
+.div-9 {
+  background-color: white;
+  border: 2px solid #ccc; /* Border abu-abu */
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%; /* Lebar responsif */
+  max-width: 500px; /* Lebar maksimum */
+  margin: 20px auto; /* Membuat elemen berada di tengah */
+  text-align: center;
+  font-family: sans-serif;
+  box-shadow: 0 4px 8px rgba(185, 0, 0, 0.5); /* Efek bayangan */
+}
+
+.text-7 {
+  font-size: 32px; /* 2em → 32px */
+  font-weight: bold;
+  color: rgba(185, 0, 0, 1);
+  margin-bottom: 15px;
+}
+
+.text-7-1 {
+  font-size: 20px; /* 1.2em → 19.2px */
+  line-height: 1.6;
+}
+
+/* Media query untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .text-7 {
+    font-size: 25px; /* 1.8em → 28.8px */
+  }
+
+  .text-7-1 {
+    font-size: 15px; /* 1em → 16px */
+  }
+}
