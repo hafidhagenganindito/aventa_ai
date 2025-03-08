@@ -10,6 +10,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { startCountdown } from "./timer.js";
 
 document.addEventListener("DOMContentLoaded", function () {
+  startCountdown()
   const button = document.querySelector(".buy-button-1"); // Change selector if needed
   const button2 = document.querySelector(".buy-button"); // Change selector if needed
   if (button) {
@@ -33,7 +34,7 @@ const refCode = getReferralCode();
 console.log("Referral Code:", refCode);
 
 document.querySelector('#app').innerHTML = `
-  <div>
+  
 <!-- Revolutionkan Bisnis Online Anda dengan => style  -->
     <div class="div-1">
       <p>
@@ -418,6 +419,5 @@ document.querySelector('#app').innerHTML = `
       <h1>AVENTA, JAGONYA JUALAN!</h1>
       ✨
     </div>
-  </div>
 `
 
