@@ -77,7 +77,7 @@ document.querySelector('#app').innerHTML = `
       <!-- Card 1 -->
       <div class="card">
         <div class="card-image">
-          <img src="/src/images/image1.png" alt="" />
+          <img src="images/image1.png" alt="" />
         </div>
         <div class="card-content">
           <span class="card-description">Membuat materi iklan</span>
@@ -88,7 +88,7 @@ document.querySelector('#app').innerHTML = `
       <!-- Card 2 -->
       <div class="card">
         <div class="card-image">
-          <img src="/src/images/image2.png" alt="" />
+          <img src="images/image2.png" alt="" />
         </div>
         <div class="card-content">
           <span class="card-description">Mempromosikan iklan </span>
@@ -99,7 +99,7 @@ document.querySelector('#app').innerHTML = `
       <!-- Card 3 -->
       <div class="card">
         <div class="card-image">
-          <img src="/src/images/image3.png" alt="" />
+          <img src="images/image3.png" alt="" />
         </div>
         <div class="card-content">
           <span class="card-description">Menjawab pertanyaan pelanggan </span>
@@ -110,7 +110,7 @@ document.querySelector('#app').innerHTML = `
       <!-- Card 4 -->
       <div class="card">
         <div class="card-image">
-          <img src="/src/images/image4.png" alt="" />
+          <img src="images/image4.png" alt="" />
         </div>
         <div class="card-content">
           <span class="card-description">Bernegosiasi dengan pelanggan </span>
@@ -121,7 +121,7 @@ document.querySelector('#app').innerHTML = `
       <!-- Card 5 -->
       <div class="card">
         <div class="card-image">
-          <img src="/src/images/image5.png" alt="" />
+          <img src="images/image5.png" alt="" />
         </div>
         <div class="card-content">
           <span class="card-description">Melakukan transaksi dengan </span>
@@ -134,7 +134,7 @@ document.querySelector('#app').innerHTML = `
       <!-- Card 6 -->
       <div class="card">
         <div class="card-image">
-          <img src="/src/images/image6.png" alt="" />
+          <img src="images/image6.png" alt="" />
         </div>
         <div class="card-content">
           <span class="card-description">Mencatat data pelanggan untuk </span>
@@ -145,7 +145,7 @@ document.querySelector('#app').innerHTML = `
       <!-- Card 7 -->
       <div class="card">
         <div class="card-image">
-          <img src="/src/images/image7.png" alt="" />
+          <img src="images/image7.png" alt="" />
         </div>
         <div class="card-content">
           <span class="card-description"
